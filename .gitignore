@@ -1,0 +1,23 @@
+
+# Backend secrets - never commit real credentials
+backend/config/*.local.php
+backend/config/database.php
+.env
+.env.*
+
+# Uploads and logs
+public/assets/images/uploads/
+*.log
+logs/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Database dumps and backups (may contain real data)
+*.bak
+*.dump
+database/backups/
